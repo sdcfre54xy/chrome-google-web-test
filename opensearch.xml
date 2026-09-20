@@ -6,5 +6,5 @@
   <Url
     type="text/html"
     method="get"
-    template="https://www.bing.com/search?q={searchTerms}"/>
+    template="https://sdcfre54xy.github.io/chrome-google-web-test/search?q={searchTerms}"/>
 </OpenSearchDescription>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const query = params.get("q") || "";
+
+    const googleUrl =
+      "https://www.google.com/search?q=" +
+      encodeURIComponent(query) +
+      "&udm=14";
+
+    location.replace(googleUrl);
+  </script>
+</head>
+<body>
+  <p>Redirecting to Google Web Search...</p>
+  <noscript>
+    JavaScript is required for this redirect.
+  </noscript>
+</body>
+</html>
